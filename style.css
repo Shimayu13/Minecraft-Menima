@@ -7,7 +7,19 @@ body {
 /*headerのデザイン*/
 
 .header {
-    display: fixed;
-    background: linear-gradient(to right, skyblue, blue);
-    z-index: 20;
+    display: flex;
+    height: 5vw;
+    width: 100vw;
+    background: linear-gradient(to right, skyblue, purple)
+}
+
+.pageLink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.horizontal {
+    height: 5vw;
+    width: 5vw;
+    margin: 2vw;
 }
