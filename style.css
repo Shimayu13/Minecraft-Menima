@@ -10,7 +10,13 @@ body {
     display: flex;
     height: 5vw;
     width: 100vw;
-    background: linear-gradient(to right, skyblue, purple)
+    background-color: whitesmoke;
+}
+
+.horizontalMark {
+    padding-left: 2vw;
+    height: 5vw;
+    width: 65vw;
 }
 
 .pageLink {
@@ -22,4 +28,10 @@ body {
     height: 5vw;
     width: 5vw;
     margin: 2vw;
+}
+
+/*contentのデザイン*/
+
+.content {
+    padding-left: 2vw;
 }
