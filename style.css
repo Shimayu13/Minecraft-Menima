@@ -1,0 +1,13 @@
+body {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+/*headerのデザイン*/
+
+.header {
+    display: fixed;
+    background: linear-gradient(to right, skyblue, blue);
+    z-index: 20;
+}
