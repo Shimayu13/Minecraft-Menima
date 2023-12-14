@@ -1,0 +1,7 @@
+.news {
+    position: relative;
+    width: 80vw;
+    height: 30vw;
+    overflow: hidden;
+    margin: 0 auto;
+}
