@@ -1,7 +1,19 @@
 .news {
+    display: flex;
     position: relative;
-    width: 80vw;
-    height: 30vw;
-    overflow: hidden;
-    margin: 0 auto;
+    width: 100vw;
+    height: 15vw;
+}
+
+.newsbox {
+    display: flex;
+    position: relative;
+    width: 40vw;
+    height: 15vw;
+}
+
+.news1{
+    background: url(../Picture/IMG_1697.PNG);
+    background-position: center;
+    background-size: cover;
 }
