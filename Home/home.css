@@ -1,4 +1,4 @@
-.news {
+.Dnews {
     display: flex;
     flex: auto;
     position: relative;
@@ -30,4 +30,20 @@
     background: url(../Picture/IMG_1699.PNG);
     background-position: center;
     background-size: cover;
+}
+
+.ContentBox {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    width: 96vw;
+    height: 140vw;
+}
+
+.VerticalBox {
+    display: flex;
+    flex: auto;
+    width: 40vw;
+    height: 30vw;
+    background-color: blue; 
 }
